@@ -1,0 +1,16 @@
+{
+  "name": "GHA-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_Success": "echo \" ***** Success ***** \" && exit 0",
+    "test_Error": "echo \" !!!!! Error !!!!! \" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
