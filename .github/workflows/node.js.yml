@@ -24,13 +24,13 @@ jobs:
       
     - name: Setup jfrog cli
       uses: jfrog/setup-jfrog-cli@v1
-#      env:
-#          JF_ARTIFACTORY_1: ${{ secrets.JF_ARTIFACTORY_SECRET_1 }}
+      env:
+          JF_ARTIFACTORY_1: ${{ secrets.JF_ARTIFACTORY_SECRET_1 }}
 
-    - run: jfrog rt config export
+#    - run: jfrog rt config export
 
-#    - run: |
-#        jfrog rt ping
+    - run: |
+        jfrog rt ping
 
 #
 #    - name: Use Node.js ${{ matrix.node-version }}
